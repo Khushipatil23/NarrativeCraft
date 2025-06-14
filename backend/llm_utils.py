@@ -5,7 +5,6 @@ from prompt_templates import build_prompt
 from tinydb import TinyDB
 from datetime import datetime
 
-# ✅ Updated logging: log to file instead of console
 logging.basicConfig(
     filename="server.log",
     level=logging.INFO,
@@ -34,9 +33,9 @@ def generate_response(mode: str, user_input: str) -> str:
                 "prompt": prompt,
                 "stream": False,
                 "options": {
-                    "temperature": 0.9,
-                    "top_p": 0.95,
-                    "top_k": 50
+                    "temperature": 0.5,
+                    "top_p": 0.7,
+                    "top_k": 20
                 }
             },
             timeout=180
