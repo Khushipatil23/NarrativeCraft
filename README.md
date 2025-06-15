@@ -74,5 +74,5 @@ FastAPI for backend
 
 React + CRA for frontend
 
-### 🎬 Demo Video
+### 🎥 Demo Video
 [Click here to watch the demo](https://drive.google.com/file/d/1Q8Je9wfNCVaCqXfrvG7ktebwoSRhmH4E/view?usp=drive_link)
