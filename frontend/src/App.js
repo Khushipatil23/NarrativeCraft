@@ -32,7 +32,7 @@ function App() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ 
-       mode: "general",           // or let user choose a mode in future
+       mode: "novel",           
        user_input: prompt
       }),
     });
